@@ -1,3 +1,4 @@
+/* Variáveis globais de cor e estilo para o aplicativo */
 :root {
     --bg-color: #121212;
     --card-color: #1e1e1e;
@@ -9,6 +10,7 @@
     --danger-color: #ef4444;
 }
 
+/* Reset básico de margem e borda para todos os elementos */
 * {
     margin: 0;
     padding: 0;
@@ -122,4 +124,23 @@ li {
     border-radius: 8px;
     margin-bottom: 10px;
     border: 1px solid var(--border-color);
+}
+
+.instructions {
+    color: var(--text-secondary);
+    margin-top: 8px;
+    font-size: 0.95rem;
+}
+
+.erro {
+    color: var(--danger-color);
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px auto;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
 }
